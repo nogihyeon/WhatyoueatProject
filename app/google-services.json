@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "516297577208",
+    "firebase_url": "https://whatyoueat-d9070.firebaseio.com",
+    "project_id": "whatyoueat-d9070",
+    "storage_bucket": "whatyoueat-d9070.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516297577208:android:f2a2a1f3bba8bb93b2610d",
+        "android_client_info": {
+          "package_name": "com.pnu.whatyoueat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516297577208-rd324b07t0hs93dnv71gjkrqt5nhjtgl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pnu.whatyoueat",
+            "certificate_hash": "3978a015fc7f7bfe3d6b8d4966eac6c9e5266f05"
+          }
+        },
+        {
+          "client_id": "516297577208-0sm166r7i9kjm7pf7us0bmb84acnaqbg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8ot_E3wQi3yKOEbsqdcBzdbkZIMKy6pY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516297577208-0sm166r7i9kjm7pf7us0bmb84acnaqbg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
