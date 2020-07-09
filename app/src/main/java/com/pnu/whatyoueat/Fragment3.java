@@ -11,7 +11,7 @@ public class Fragment3 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
-        ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.fragment3, container, false);
+        ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.activity_profile, container, false);
 
         initUI(rootView);
 

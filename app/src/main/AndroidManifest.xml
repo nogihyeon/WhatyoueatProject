@@ -2,20 +2,41 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.pnu.whatyoueat">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCn3US8JL35jBCfFXLUbGV4UpQyPGPzKFw" />
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".EnrollActivity"></activity>
+        <activity android:name=".StartActivity"></activity>
+        <activity android:name=".FindActivity"></activity>
+        <activity android:name=".Fragment1"></activity>
+        <activity android:name=".Fragment2"></activity>
+        <activity android:name=".Fragment3"></activity>
+        <activity android:name=".RandomActivity"></activity>
+        <activity android:name=".MyGlideModule"></activity>
+        <activity android:name=".PickActivity"></activity>
+        <activity android:name=".Rand"></activity>
+        <activity android:name=".FoodTable"></activity>
+        <activity android:name=".TogetherActivity"></activity>
+        <activity android:name=".Map"></activity>
     </application>
 
 </manifest>
