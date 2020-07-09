@@ -20,9 +20,12 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+<<<<<<< HEAD
 import java.util.HashMap;
 import java.util.Map;
 
+=======
+>>>>>>> 859cb287d8fac9bbd22cc520de9dd8150ee47188
 public class EnrollActivity extends AppCompatActivity implements View.OnClickListener {
 
     //define view objects
@@ -86,6 +89,7 @@ public class EnrollActivity extends AppCompatActivity implements View.OnClickLis
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
+<<<<<<< HEAD
 
                             DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference();
                             Map<String, Object> map = new HashMap<String, Object>();
@@ -103,6 +107,55 @@ public class EnrollActivity extends AppCompatActivity implements View.OnClickLis
                             }
                             mDatabase.child("users").child(email.split("@")[0].toLowerCase()).updateChildren(map1);
 
+=======
+                            String[] menu = new String[37];
+                            menu[0]="비빔밥";
+                            menu[1]="국수";
+                            menu[2]="칼국수";
+                            menu[3]="찜닭";
+                            menu[4]="제육볶음";
+                            menu[5]="김치찌개";
+                            menu[6]="부대찌개";
+                            menu[7]="순두부찌개";
+                            menu[8]="보쌈/족발";
+                            menu[9]="밀면/냉면";
+                            menu[10]="분식";
+                            menu[11]="국밥";
+                            menu[12]="닭갈비";
+                            menu[13]="철판구이/볶음밥";
+                            menu[14]="삼계탕";
+                            menu[15]="불고기";
+                            menu[16]="닭볶음탕";
+                            menu[17]="갈비찜";
+                            menu[18]="김치찜";
+                            menu[19]="치킨";
+                            menu[20]="짜장/짬뽕";
+                            menu[21]="볶음밥";
+                            menu[22]="탄탄멘";
+                            menu[23]="파스타";
+                            menu[24]="햄버거";
+                            menu[25]="피자";
+                            menu[26]="샌드위치/토스트";
+                            menu[27]="초밥";
+                            menu[28]="덮밥";
+                            menu[29]="우동";
+                            menu[30]="라멘";
+                            menu[31]="돈가스";
+                            menu[32]="오므라이스";
+                            menu[33]="알밥";
+                            menu[34]="케밥";
+                            menu[35]="카레";
+                            menu[36]="태국음식";
+
+                            DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference();
+                            UserClass user = new UserClass(menu[0], "0");
+                            mDatabase.child("users").setValue(user);
+//                            for(int i=0; i<menu.length; ++i){
+//                                UserClass user = new UserClass(menu[i], "0");
+//                                mDatabase.child("users").child(email).setValue(menu[i]);
+//                                mDatabase.child("users").child(email).child(menu[i]).setValue("0");
+//                            }
+>>>>>>> 859cb287d8fac9bbd22cc520de9dd8150ee47188
                             finish();
                             startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
 

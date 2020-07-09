@@ -5,7 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffe6b3"
+<<<<<<< HEAD
     tools:context="com.pnu.whatyoueat.ProfileActivity">
+=======
+    tools:context="com.example.login.ProfileActivity">
+>>>>>>> 859cb287d8fac9bbd22cc520de9dd8150ee47188
 
     <LinearLayout
         android:orientation="vertical"

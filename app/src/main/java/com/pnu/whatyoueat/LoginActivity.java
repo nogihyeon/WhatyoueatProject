@@ -46,7 +46,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             //이미 로그인 되었다면 이 액티비티를 종료함
             finish();
             //그리고 profile 액티비티를 연다.
+<<<<<<< HEAD
             startActivity(new Intent(getApplicationContext(), StartActivity.class)); //추가해 줄 ProfileActivity
+=======
+            startActivity(new Intent(getApplicationContext(), ProfileActivity.class)); //추가해 줄 ProfileActivity
+>>>>>>> 859cb287d8fac9bbd22cc520de9dd8150ee47188
         }
         //initializing views
         editTextEmail = findViewById(R.id.editTextEmail);

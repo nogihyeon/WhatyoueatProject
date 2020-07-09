@@ -23,19 +23,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
+<<<<<<< HEAD
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="20dp"
+=======
+>>>>>>> 859cb287d8fac9bbd22cc520de9dd8150ee47188
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
+<<<<<<< HEAD
         app:layout_constraintVertical_bias="0.171" />
+=======
+        app:layout_constraintVertical_bias="0.232" />
+>>>>>>> 859cb287d8fac9bbd22cc520de9dd8150ee47188
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginBottom="32dp"
         android:text="근처 식당"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -45,4 +53,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
         app:layout_constraintVertical_bias="1.0" />
+=======
+        android:layout_marginBottom="64dp"
+        android:text="근처 식당"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.962" />
+>>>>>>> 859cb287d8fac9bbd22cc520de9dd8150ee47188
 </androidx.constraintlayout.widget.ConstraintLayout>

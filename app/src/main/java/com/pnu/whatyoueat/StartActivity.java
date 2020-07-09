@@ -51,8 +51,12 @@ public class StartActivity extends AppCompatActivity implements  OnTabItemSelect
 
                     case R.id.tab3 :
                         Toast.makeText(getApplicationContext(), "내 정보 선택됨", Toast.LENGTH_SHORT).show();
+<<<<<<< HEAD
 //                        getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment3).commit();
                         startActivity(new Intent(getApplicationContext(), ProfileActivity.class)); //추가해 줄 ProfileActivity
+=======
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment3).commit();
+>>>>>>> 859cb287d8fac9bbd22cc520de9dd8150ee47188
                         return true;
                 }
                 return false;

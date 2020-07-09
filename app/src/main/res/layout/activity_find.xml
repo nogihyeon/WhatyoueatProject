@@ -6,7 +6,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#7ab9fd"
+<<<<<<< HEAD
     tools:context="com.pnu.whatyoueat.FindActivity">
+=======
+    tools:context="com.example.login.FindActivity">
+>>>>>>> 859cb287d8fac9bbd22cc520de9dd8150ee47188
 
     <TextView
         android:layout_gravity="center_horizontal"
